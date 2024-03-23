@@ -1,0 +1,102 @@
+{
+  "user": [
+    {
+      "id": "adminuser",
+      "name": "Nihira",
+      "password": "admin",
+      "email": "nihiratechiees@gmail.com",
+      "phone": "8989898989",
+      "country": "usa",
+      "address": "",
+      "role": "admin",
+      "gender": "female"
+    },
+    {
+      "id": "ntuser",
+      "name": "Fullname",
+      "password": "ntuser",
+      "email": "email@email.com",
+      "phone": "56778889989",
+      "country": "singapore",
+      "address": "address1\naddrees2",
+      "role": "user",
+      "gender": "male"
+    },
+    {
+      "id": "kush",
+      "name": "sahu",
+      "password": "kushsahu",
+      "email": "kushsahu144114@gmail.com",
+      "phone": "07276036594",
+      "country": "india",
+      "address": "",
+      "gender": "male"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "id": "76df"
+    },
+    {
+      "role": "admin",
+      "menu": "supplier",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "id": "3086"
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false,
+      "id": "df26"
+    },
+    {
+      "role": "user1",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false,
+      "id": "e3e0"
+    }
+  ],
+  "customer": [
+    {
+      "code": 1,
+      "name": "Chris",
+      "email": "chris@in.com",
+      "id": "ce18"
+    },
+    {
+      "code": 2,
+      "name": "Lynn",
+      "email": "lynn@in.com",
+      "id": "516a"
+    },
+    {
+      "code": 3,
+      "name": "Tim",
+      "email": "tim@in.com",
+      "id": "11e9"
+    },
+    {
+      "code": 4,
+      "name": "Southee",
+      "email": "southee@in.com",
+      "id": "8af8"
+    },
+    {
+      "code": 5,
+      "name": "boult",
+      "email": "bould@in.com",
+      "id": "11a6"
+    }
+  ]
+}
